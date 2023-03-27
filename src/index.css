@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: rgba(166, 130, 221, 0.356);
+  --primary-dark: rgb(166, 130, 221);
+  --primary-dark-text: rgb(121, 72, 194);
+  --primary-dark-modal: rgba(121, 72, 194, 0.726);
+  --primary-transparent: rgba(166, 130, 221, 0.699);
+  --secondary: rgba(251, 252, 219, 0.5);
+}
+
+@layer {
+  html {
+    @apply bg-[var(--primary)]
+  }
+
+}
